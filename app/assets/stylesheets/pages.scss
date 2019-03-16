@@ -1,0 +1,122 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@charset "UTF-8";
+
+body {
+	background-color: #ffebcd;
+	margin-bottom: 50px;
+}
+
+h1 {
+	color: #f08080;
+	font-style: italic;
+}
+
+a:hover {
+	/*color: #2f4f4f;
+	border-style: groove;
+	padding: .2cm;
+	margin: 1cm;
+	width: 100%;
+	height: 100%;*/
+	text-decoration: none;
+  	color: purple;
+}
+h3 {
+	color: #f08080;
+}
+table {
+	border-style: ridge;
+	color: #2f4f4f;
+}
+td {
+	border-style: ridge;
+}
+th#tablehead {
+	color: #f08080;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px 0;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner nav {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.content {
+	text-align: center;
+	max-width: 500px;
+	margin: auto;
+}
+/*footer {
+  position: fixed;
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+
+footer a {
+  color: lightgrey;
+  font-size: 15px;
+}*/
+#footer {
+  padding-top: 10px:
+  padding-bottom: 0px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  position: fixed;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
+
+@media (max-width:500px) {
+	a {
+		color: #2f4f4f;
+		border-style: groove;
+		padding: .2cm;
+		margin: .1cm;
+		background-color: #ffebcd;
+		width: 80%;
+		height: 80%;
+	}
+	#actint {
+		margin-top: .5cm;
+		float: left;
+		
+	}
+	h1 {
+		
+	}
+	img.profi {
+		width: 100%;
+		height: 100%;
+	}
+	p {
+		align-content: flex-end;
+		border-style: hidden;
+		float: left;
+		text-overflow: clip;
+	}
+}
+
+
